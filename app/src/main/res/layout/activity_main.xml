@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="16"
-        android:hint="@string/email"
+        android:hint="Email or Mobile Number"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
