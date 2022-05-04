@@ -17,4 +17,12 @@ public class MainActivity extends AppCompatActivity {
     public void openSign_up(View view) {
         startActivity(new Intent(this,SignUp.class));
     }
+
+    public void openMain2(View view) {
+        startActivity(new Intent(this,SignUp.class));
+    }
+
+    public void openDonationReceiverpage(View view) {
+        startActivity(new Intent(this,DonationReceiverpage.class));
+    }
 }

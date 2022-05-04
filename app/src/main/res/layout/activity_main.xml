@@ -85,6 +85,7 @@
         android:layout_marginTop="60dp"
         android:backgroundTint="#4CAF50"
         android:text="@string/log_in"
+        android:onClick="openDonationReceiverpage"
         android:textColor="@color/black"
         android:textIsSelectable="false"
         android:textSize="16sp"
