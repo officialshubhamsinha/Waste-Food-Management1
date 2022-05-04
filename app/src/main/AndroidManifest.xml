@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WasteFoodManagement">
         <activity
-            android:name=".Donar_Page"
+            android:name=".Donor_List"
             android:exported="false"
             android:label="@string/title_activity_donar_page"
             android:theme="@style/Theme.WasteFoodManagement.NoActionBar" />
