@@ -61,7 +61,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button"
@@ -75,7 +76,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.873"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button2"
@@ -84,8 +86,8 @@
         android:layout_height="45dp"
         android:layout_marginTop="60dp"
         android:backgroundTint="#4CAF50"
-        android:text="@string/log_in"
         android:onClick="openDonationReceiverpage"
+        android:text="@string/log_in"
         android:textColor="@color/black"
         android:textIsSelectable="false"
         android:textSize="16sp"
@@ -93,7 +95,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.258"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button3"
@@ -103,13 +106,14 @@
         android:layout_marginTop="64dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="#F44336"
-        android:text="@string/sign_up"
         android:onClick="openSign_up"
+        android:text="@string/sign_up"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView3"

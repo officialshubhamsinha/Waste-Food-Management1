@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/monda/AndroidStudioProjects/Waste-Food-Management/app/src/main/res/layout/activity_donar_page.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/monda/AndroidStudioProjects/Waste-Food-Management/app/src/main/res/layout/activity_donation_receiverpage.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/monda/AndroidStudioProjects/Waste-Food-Management/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/monda/AndroidStudioProjects/Waste-Food-Management/app/src/main/res/layout/activity_main.xml" value="0.125" />
         <entry key="..\:/Users/monda/AndroidStudioProjects/Waste-Food-Management/app/src/main/res/layout/activity_main2.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/monda/AndroidStudioProjects/Waste-Food-Management/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15849456787109378" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/monda/AndroidStudioProjects/Waste-Food-Management/app/src/main/res/layout/fragment_first.xml" value="0.24003623188405798" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24488525390625002" />
       </map>
     </option>
   </component>
