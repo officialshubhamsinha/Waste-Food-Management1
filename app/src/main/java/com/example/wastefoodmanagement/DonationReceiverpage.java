@@ -17,4 +17,8 @@ public class DonationReceiverpage extends AppCompatActivity {
     public void openDonationReceiverpage(View view) {
         startActivity(new Intent(this, Donor_List.class));
     }
+
+    public void openDonation_Entry(View view) {
+        startActivity(new Intent(this, Donation_Entry.class));
+    }
 }
