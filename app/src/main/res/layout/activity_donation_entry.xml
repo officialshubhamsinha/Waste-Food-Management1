@@ -4,24 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/food"
 
 
     tools:context="Donation_Entry">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="337dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="30dp"
-        android:background="@color/white"
-        android:text="DONATION INFORMATION"
-        android:textColor="#090909"
-        android:textSize="24sp"
-        android:textStyle="normal|bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -43,7 +29,6 @@
         android:id="@+id/textView3"
         android:layout_width="342dp"
         android:layout_height="39dp"
-        android:layout_marginTop="24dp"
         android:text="Restaurant Name And Place"
         android:textColor="#8E24AA"
         android:textSize="20sp"
@@ -51,7 +36,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView4"
@@ -119,7 +104,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.072" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
@@ -135,5 +120,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="DONATION INFORMATION"
+        android:textColor="#090909"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
