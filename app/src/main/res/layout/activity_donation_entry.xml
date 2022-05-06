@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/food"
+
 
     tools:context="Donation_Entry">
 
@@ -12,14 +12,14 @@
         android:id="@+id/textView"
         android:layout_width="337dp"
         android:layout_height="45dp"
-        android:layout_marginTop="40dp"
-        android:background="#DEE4DF"
-        android:text="Donation Information:-"
-        android:textColor="#1E88E5"
-        android:textSize="34sp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:text="DONATION INFORMATION"
+        android:textColor="#090909"
+        android:textSize="24sp"
         android:textStyle="normal|bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
